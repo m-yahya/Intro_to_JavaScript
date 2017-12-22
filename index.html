@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Introdunction to JavaScript</title>
+  </head>
+<body>
+<!-- creating div element with Paragraph in html
+<div id="new-div"><p>The above element is newly created.</p></div>
+ -->
+<script src="js/exampleDom.js"></script>
+
+<!-- creating form -->
+<form action="">
+    <!-- creating selection menu -->
+    <select id="elementType" size="1">
+      <option value="h1" selected>Heading 1</option>
+      <option value="h2">Heading 2</option>
+      <option value="h3">Heading 3</option>
+      <option value="p">Paragraph</option>
+      <option value="hr">Horizontal Rule</option>
+    </select>
+    <!-- creating text bar to add the text -->
+    <input type="text" id="elementContent" size="50">
+    <!-- creating add button with on click mouse function -->
+    <input type="button" value="Add" onclick="addDOMElements()">
+  </form>
+  <div id="container"></div>
+</body>
+</html>
